@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>MTG Deckguide Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="modules/decklist.css" />
+  <link rel="stylesheet" href="modules/mana-analysis.css" /> 
+  <link rel="stylesheet" href="modules/hoverPreview.css" />
+</head>
+
+<body>
+  <button id="themeToggle" class="theme-toggle noprint" title="Theme wechseln">🌙</button>
+
+  <div id="inputSection" class="noprint">
+    <h1>🧠 MTG Deckguide Generator</h1>
+    <p>Deckliste als JSON einfügen oder Datei importieren:</p>
+
+    <textarea id="jsonInput"></textarea>
+
+    <input type="file" id="jsonFile" />
+
+    <div class="button-row">
+      <button id="loadJsonBtn">🔄 JSON laden</button>
+      <button id="generateBtn">📘 Deckguide generieren</button>
+    </div>
+  </div>
+  <div class="progress noprint" id="progressContainer">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <div class="page-block section">
+    <h2 id="deckTitle">Deckname</h2>
+    <p id="deckFlavor" style="font-style: italic;"></p>
+  </div>
+
+  <div class="page-block section">
+    <h3>🎯 Format</h3>
+    <p><strong id="formatName"></strong></p>
+    <div id="formatCardsList"></div>
+  </div>
+
+  <div class="page-block section">
+    <h3>🧠 Strategie</h3>
+    <p id="strategyText"></p>
+  </div>
+ 
+  <div class="page-block section">
+    <h3>🔁 Synergien & Kombos</h3>
+    <div id="comboListContainer" class="combo-list-container"></div>
+  </div>
+
+  <div class="page-block section" id="gameplan">
+    <h3>🧠 Spielplan</h3>
+    <div class="gameplan-block">
+      <div class="gameplan-phase">
+        <div class="phase-label">🔹 Turn 1–2</div>
+        <div class="phase-text" id="earlyGame"></div>
+      </div>
+      <div class="gameplan-phase">
+        <div class="phase-label">🔸 Turn 3–4</div>
+        <div class="phase-text" id="midGame"></div>
+      </div>
+      <div class="gameplan-phase">
+        <div class="phase-label">🔥 Turn 5+</div>
+        <div class="phase-text" id="lateGame"></div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="page-block section" id="mulligan">
+    <h3>🔍 Mulligan Guide</h3>
+    <div class="mulligan-wrapper">
+      <div class="mull-box keep">
+        <h4>✅ Behalten</h4>
+        <ul id="mulliganKeep"></ul>
+      </div>
+      <div class="mull-box mull">
+        <h4>❌ Mulligan</h4>
+        <ul id="mulliganMull"></ul>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="page-block section">
+    <h3>📋 Deckliste</h3>
+    <div id="deckTableContainer"></div>
+  </div>
+
+  <div class="page-block section">
+    <h3>📊 Analyse</h3>
+    <div class="chart-grid">
+      <canvas id="curveCanvas"></canvas>
+      <canvas id="colorCanvas"></canvas>
+    </div>
+  </div>
+
+  <script src="js/libs/chart.js"></script>
+  <script type="module" src="./js/app.js"></script>
+
+</body>
+
+</html>

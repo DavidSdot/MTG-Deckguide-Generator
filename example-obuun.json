@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "deckName": "Landfall und +1/+1: Obuun's Aufstieg",
+  "language": "de",
+  "colors": ["W", "R", "G"],
+  "flavorText": "Wenn das Land selbst zum Werkzeug des Krieges wird, tanzen die Ahnen vor Freude.",
+  "strategy": "Dieses Commander-Deck rund um <strong>Obuun, Mul Daya Ancestor</strong> kombiniert <em>Landfall</em>-Effekte mit einer starken +1/+1-Marken-Synergie. Das Ziel ist es, durch stetige Landdrops Kreaturen stetig zu verstärken und gegnerische Boards mit stetigem Druck zu überrollen.<br><br><strong>Land-Rampen</strong> wie <em>Azusa, Lost but Seeking</em>, <em>Dryad of the Ilysian Grove</em> und <em>Springbloom Druid</em> ermöglichen es, schnell viele Länder zu legen – und damit <em>Obuun</em>'s Fähigkeit maximal auszunutzen.<br><br>Mit Karten wie <em>Evolution Sage</em> oder <em>Inspiring Call</em> profitieren wir zusätzlich von Markenverteilung und Kartenziehoptionen. Eine explosive Synergie entsteht mit <em>Scute Swarm</em> oder <em>Omnath, Locus of Rage</em>, die bei jedem Landfall das Feld dominieren.<br><br>Der Deckfokus liegt klar auf Tempo, Boardpräsenz und Value über Landinteraktionen.",
+  "format": {
+    "name": "Commander",
+    "specialCards": [
+      {
+        "name": "Commander",
+        "cardName": "Obuun, Mul Daya Ancestor"
+      }
+    ]
+  },
+  "combos": [
+    {
+      "cards": ["Scute Swarm", "Dryad of the Ilysian Grove", "Azusa, Lost but Seeking"],
+      "effect": "Unbegrenzte Tokens durch mehrere Landdrops pro Zug in Kombination mit Dryad für farbunabhängiges Landspiel."
+    },
+    {
+      "cards": ["Omnath, Locus of Rage", "Evolution Sage", "Terramorphic Expanse"],
+      "effect": "Landfall triggert Omnath für Elementare und Sage für Proliferate – eskaliert schnell mit mehr Ländern."
+    }
+  ],
+  "gameplan": {
+    "early": "Nutze günstige Ramp-Optionen wie <em>Fertilid</em>, <em>Elvish Rejuvenator</em> oder <em>Roiling Regrowth</em>, um schnell dein Manabase aufzubauen.",
+    "mid": "Bring Schlüsselwesen ins Spiel: <em>Obuun</em>, <em>Dryad of the Ilysian Grove</em> und <em>Lotus Cobra</em>. Beginne mit aggressivem Druck über Landfall-Synergien.",
+    "late": "Entfessle mächtige Finishers wie <em>Omnath</em>, <em>Rampaging Baloths</em> oder <em>Multani</em>. Nutze Karten wie <em>Hour of Revelation</em> zur Boardkontrolle."
+  },
+  "mulligan": {
+    "keep": [
+      "1 Ramp + 2 Länder + 1 Value-Creature (z. B. Evolution Sage)",
+      "Azusa, Lost but Seeking + 3 Länder",
+      "Command Tower + Skyclave Pick-Axe + Scute Swarm"
+    ],
+    "mull": [
+      "Nur teure Karten ohne Ramp",
+      "Keine Länder",
+      "Nur Länder ohne Interaktionen"
+    ]
+  },
+  "decklist": [
+    "1 Obuun, Mul Daya Ancestor",
+    "1 Abzan Falconer",
+    "1 Ancient Greenwarden",
+    "1 Arcane Signet",
+    "1 Azusa, Lost but Seeking",
+    "1 Beanstalk Giant",
+    "1 Boros Guildgate",
+    "1 Broken Bond",
+    "1 Circuitous Route",
+    "1 Command Tower",
+    "1 Condemn",
+    "1 Conduit of Worlds",
+    "1 Crush Contraband",
+    "1 Cryptic Caves",
+    "1 Dryad of the Ilysian Grove",
+    "1 Elvish Rejuvenator",
+    "1 Evolution Sage",
+    "1 Evolving Wilds",
+    "1 Fertilid",
+    "10 Forest",
+    "1 Forgotten Ancient",
+    "1 Gruul Guildgate",
+    "1 Hardened Scales",
+    "1 Harmonize",
+    "1 Harrow",
+    "1 Hour of Revelation",
+    "1 Inspiring Call",
+    "1 Kami of Whispered Hopes",
+    "1 Kazandu Nectarpot",
+    "1 Living Twister",
+    "1 Lotus Cobra",
+    "4 Mountain",
+    "1 Multani, Yavimaya's Avatar",
+    "1 Murasa Rootgrazer",
+    "1 Needle Spires",
+    "1 Nissa, Resurgent Animist",
+    "1 Nissa, Who Shakes the World",
+    "1 Omnath, Locus of Rage",
+    "7 Plains",
+    "1 Prismatic Omen",
+    "1 Rampaging Baloths",
+    "1 Retreat to Kazandu",
+    "1 Roiling Regrowth",
+    "1 Scute Swarm",
+    "1 Selesnya Guildgate",
+    "1 Sigarda, Font of Blessings",
+    "1 Skyclave Pick-Axe",
+    "1 Springbloom Druid",
+    "1 Terramorphic Expanse",
+    "1 The Mending of Dominaria",
+    "1 Thirsting Roots",
+    "1 Treacherous Terrain",
+    "1 Tuskguard Captain",
+    "1 Arboreal Grazer",
+    "1 Armorcraft Judge",
+    "1 Baloth Woodcrasher",
+    "1 Banishing Light",
+    "1 Brushfire Elemental",
+    "1 Citanul Stalwart",
+    "1 Cliffhaven Kitesail",
+    "1 Deepwood Denizen",
+    "1 Fog",
+    "1 Garruk's Uprising",
+    "1 Goreclaw, Terror of Qal Sisma",
+    "1 Groundswell",
+    "1 Keeper of Fables",
+    "1 Llanowar Elves",
+    "1 Mikaeus, the Lunarch",
+    "1 New Horizons",
+    "1 Path to Exile",
+    "1 Return of the Wildspeaker",
+    "1 Rosethorn Halberd",
+    "1 Satyr Wayfinder",
+    "1 Shigeki, Jukai Visionary",
+    "1 Silence",
+    "1 Skola Grovedancer",
+    "1 Splendid Reclamation",
+    "1 Sporemound",
+    "1 Struggle /// Survive",
+    "1 Sun Titan",
+    "1 Territorial Scythecat",
+    "1 Unnatural Growth",
+    "1 Utopia Sprawl",
+    "1 Valakut Exploration",
+    "1 Waker of the Wilds",
+    "1 Zendikar's Roil"
+  ]
+}

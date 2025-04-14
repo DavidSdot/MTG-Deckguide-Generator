@@ -1,0 +1,44 @@
+.decklist-filter {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--table-border);
+  border-radius: 4px;
+}
+
+.decklist-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--table-bg);
+  color: var(--text);
+}
+
+.decklist-table th,
+.decklist-table td {
+  padding: 0.5rem;
+  border: 1px solid var(--table-border);
+  text-align: left;
+  color: var(--text);
+}
+
+.decklist-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.mana-icon {
+  height: 1em;
+  vertical-align: middle;
+  margin-right: 2px;
+  display: inline-block;
+}
+
+@media (min-width: 1024px) {
+  .decklist-table td,
+  .decklist-table th {
+    font-size: 1.05rem;
+  }
+}
