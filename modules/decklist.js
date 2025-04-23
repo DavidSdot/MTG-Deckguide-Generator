@@ -1,26 +1,9 @@
 import {
-  linkCardNames
-} from '../modules/hoverPreview.js';
+  renderManaCost
+} from './ui/symbology';
 
-let symbolMap = {}; // Für Mana-Symbole
-
-// Hole Manasymbole von Scryfall (einmalig)
-export async function initSymbology() {
-  const res = await fetch("https://api.scryfall.com/symbology");
-  const json = await res.json();
-  json.data.forEach(s => {
-    symbolMap[s.symbol] = s;
-  });
-}
-
-function renderManaCost(cost) {
-  if (!cost || !symbolMap) return "";
-  return cost.replace(/\{[^}]+\}/g, symbol => {
-    const entry = symbolMap[symbol];
-    return entry
-      ? `<img src="${entry.svg_uri}" alt="${symbol}" class="mana-icon">`
-      : symbol;
-  });
+export {
+  createDeckTable,
 }
 
 function parseManaValue(manaCost) {
@@ -36,8 +19,7 @@ function parseManaValue(manaCost) {
   }, 0);
 }
 
-
-export function createDeckTable(cards, targetId) {
+function createDeckTable(cards, targetId) {
   const target = document.getElementById(targetId);
   if (!target || !Array.isArray(cards)) return;
 
@@ -78,8 +60,8 @@ export function createDeckTable(cards, targetId) {
     typeCell.innerHTML = c.printed_type_line ? c.printed_type_line : c.type_line;
 
     const manaCell = document.createElement("td");
-    manaCell.innerHTML = renderManaCost(c.mana_cost);
-    manaCell.setAttribute("data-cmc", parseManaValue(c.mana_cost));
+    manaCell.innerHTML = renderManaCost(c.manaCost);
+    manaCell.setAttribute("data-cmc", parseManaValue(c.manaCost));
 
     row.appendChild(nameCell);
     row.appendChild(typeCell);

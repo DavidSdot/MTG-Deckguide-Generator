@@ -1,0 +1,583 @@
+{
+  "deckName": "Kraum’s Izzet Storm Surge",
+  "language": "de",
+  "colors": [
+    "U",
+    "R"
+  ],
+  "format": {
+    "name": "Commander",
+    "specialCards": [
+      {
+        "name": "Commander",
+        "cardName": "Kraum, Violent Cacophony"
+      }
+    ]
+  },
+  "decklist": {
+    "mainboard": [
+      {
+        "quantity": 1,
+        "name": "Kraum, Violent Cacophony",
+        "set": "OTJ",
+        "setnum": "214"
+      },
+      {
+        "quantity": 1,
+        "name": "Abrade",
+        "set": "FDN",
+        "setnum": "188"
+      },
+      {
+        "quantity": 1,
+        "name": "Arcane Signet",
+        "set": "DMC",
+        "setnum": "177"
+      },
+      {
+        "quantity": 1,
+        "name": "Artful Dodge",
+        "set": "DKA",
+        "setnum": "27"
+      },
+      {
+        "quantity": 1,
+        "name": "Banishing Knack",
+        "set": "EVE",
+        "setnum": "17"
+      },
+      {
+        "quantity": 1,
+        "name": "Battle Hymn",
+        "set": "AVR",
+        "setnum": "128"
+      },
+      {
+        "quantity": 1,
+        "name": "By Force",
+        "set": "AKH",
+        "setnum": "123"
+      },
+      {
+        "quantity": 1,
+        "name": "Cinder Pyromancer",
+        "set": "EVE",
+        "setnum": "50"
+      },
+      {
+        "quantity": 1,
+        "name": "Circle of Flame",
+        "set": "M15",
+        "setnum": "135"
+      },
+      {
+        "quantity": 1,
+        "name": "Command Tower",
+        "set": "SCD",
+        "setnum": "297"
+      },
+      {
+        "quantity": 1,
+        "name": "Commander's Sphere",
+        "set": "C21",
+        "setnum": "239"
+      },
+      {
+        "quantity": 1,
+        "name": "Double Vision",
+        "set": "M21",
+        "setnum": "142"
+      },
+      {
+        "quantity": 1,
+        "name": "Dualcaster Mage",
+        "set": "C20",
+        "setnum": "150"
+      },
+      {
+        "quantity": 1,
+        "name": "Electrify",
+        "set": "AKH",
+        "setnum": "129"
+      },
+      {
+        "quantity": 1,
+        "name": "Empty the Warrens",
+        "set": "TSR",
+        "setnum": "162"
+      },
+      {
+        "quantity": 1,
+        "name": "Essence Scatter",
+        "set": "PLST",
+        "setnum": "M19-54"
+      },
+      {
+        "quantity": 1,
+        "name": "Expedite",
+        "set": "BBD",
+        "setnum": "177"
+      },
+      {
+        "quantity": 1,
+        "name": "Exquisite Firecraft",
+        "set": "ORI",
+        "setnum": "143"
+      },
+      {
+        "quantity": 1,
+        "name": "Ferrous Lake",
+        "set": "BLC",
+        "setnum": "303"
+      },
+      {
+        "quantity": 1,
+        "name": "Finale of Promise",
+        "set": "OTC",
+        "setnum": "166"
+      },
+      {
+        "quantity": 1,
+        "name": "Fire Diamond",
+        "set": "CMR",
+        "setnum": "309"
+      },
+      {
+        "quantity": 1,
+        "name": "Firebolt",
+        "set": "PLST",
+        "setnum": "DDS-37"
+      },
+      {
+        "quantity": 1,
+        "name": "Firebrand Archer",
+        "set": "FDN",
+        "setnum": "196"
+      },
+      {
+        "quantity": 1,
+        "name": "Fists of Flame",
+        "set": "CMM",
+        "setnum": "223"
+      },
+      {
+        "quantity": 1,
+        "name": "Flame Slash",
+        "set": "DDK",
+        "setnum": "60"
+      },
+      {
+        "quantity": 1,
+        "name": "Frantic Search",
+        "set": "UMA",
+        "setnum": "57"
+      },
+      {
+        "quantity": 1,
+        "name": "Frostboil Snarl",
+        "set": "WHO",
+        "setnum": "282"
+      },
+      {
+        "quantity": 1,
+        "name": "Galvanic Iteration",
+        "set": "OTC",
+        "setnum": "227"
+      },
+      {
+        "quantity": 1,
+        "name": "Galvanize",
+        "set": "MKM",
+        "setnum": "128"
+      },
+      {
+        "quantity": 1,
+        "name": "Goblin Electromancer",
+        "set": "GRN",
+        "setnum": "174"
+      },
+      {
+        "quantity": 1,
+        "name": "Grapeshot",
+        "set": "TSP",
+        "setnum": "160"
+      },
+      {
+        "quantity": 1,
+        "name": "Guttersnipe",
+        "set": "RTR",
+        "setnum": "98"
+      },
+      {
+        "quantity": 1,
+        "name": "High Tide",
+        "set": "DMR",
+        "setnum": "54"
+      },
+      {
+        "quantity": 1,
+        "name": "Impact Tremors",
+        "set": "WOT",
+        "setnum": "44"
+      },
+      {
+        "quantity": 1,
+        "name": "Increasing Vengeance",
+        "set": "C19",
+        "setnum": "147"
+      },
+      {
+        "quantity": 1,
+        "name": "Invade the City",
+        "set": "PLST",
+        "setnum": "WAR-201"
+      },
+      {
+        "quantity": 11,
+        "name": "Island",
+        "set": "MOM",
+        "setnum": "278"
+      },
+      {
+        "quantity": 1,
+        "name": "Izzet Boilerworks",
+        "set": "MM2",
+        "setnum": "245"
+      },
+      {
+        "quantity": 1,
+        "name": "Izzet Charm",
+        "set": "2X2",
+        "setnum": "230"
+      },
+      {
+        "quantity": 1,
+        "name": "Izzet Locket",
+        "set": "GRN",
+        "setnum": "238"
+      },
+      {
+        "quantity": 1,
+        "name": "Izzet Signet",
+        "set": "BLC",
+        "setnum": "278"
+      },
+      {
+        "quantity": 1,
+        "name": "Izzet Staticaster",
+        "set": "RTR",
+        "setnum": "173"
+      },
+      {
+        "quantity": 1,
+        "name": "Lava Dart",
+        "set": "MH1",
+        "setnum": "134"
+      },
+      {
+        "quantity": 1,
+        "name": "Levitation",
+        "set": "M12",
+        "setnum": "61"
+      },
+      {
+        "quantity": 1,
+        "name": "Lightning Bolt",
+        "set": "M10",
+        "setnum": "146"
+      },
+      {
+        "quantity": 1,
+        "name": "Magmaquake",
+        "set": "C18",
+        "setnum": "125"
+      },
+      {
+        "quantity": 1,
+        "name": "Mizzium Mortars",
+        "set": "CLB",
+        "setnum": "803"
+      },
+      {
+        "quantity": 12,
+        "name": "Mountain",
+        "set": "JMP",
+        "setnum": "64"
+      },
+      {
+        "quantity": 1,
+        "name": "Mystic Retrieval",
+        "set": "DKA",
+        "setnum": "42"
+      },
+      {
+        "quantity": 1,
+        "name": "Nettle Drone",
+        "set": "BFZ",
+        "setnum": "131"
+      },
+      {
+        "quantity": 1,
+        "name": "Octavia, Living Thesis",
+        "set": "OTC",
+        "setnum": "103"
+      },
+      {
+        "quantity": 1,
+        "name": "Opt",
+        "set": "M21",
+        "setnum": "59"
+      },
+      {
+        "quantity": 1,
+        "name": "Ornithopter",
+        "set": "M15",
+        "setnum": "223"
+      },
+      {
+        "quantity": 1,
+        "name": "Overmaster",
+        "set": "DMR",
+        "setnum": "132"
+      },
+      {
+        "quantity": 1,
+        "name": "Reckless Fireweaver",
+        "set": "KLD",
+        "setnum": "126"
+      },
+      {
+        "quantity": 1,
+        "name": "Rescue",
+        "set": "DOM",
+        "setnum": "63"
+      },
+      {
+        "quantity": 1,
+        "name": "Retraction Helix",
+        "set": "BNG",
+        "setnum": "49"
+      },
+      {
+        "quantity": 1,
+        "name": "Rise from the Tides",
+        "set": "SOI",
+        "setnum": "83"
+      },
+      {
+        "quantity": 1,
+        "name": "Rodeo Pyromancers",
+        "set": "OTJ",
+        "setnum": "143"
+      },
+      {
+        "quantity": 1,
+        "name": "Saheeli, Sublime Artificer",
+        "set": "WAR",
+        "setnum": "234"
+      },
+      {
+        "quantity": 1,
+        "name": "Seize the Secrets",
+        "set": "OTJ",
+        "setnum": "64"
+      },
+      {
+        "quantity": 1,
+        "name": "Skewer the Critics",
+        "set": "RNA",
+        "setnum": "115"
+      },
+      {
+        "quantity": 1,
+        "name": "Sky Diamond",
+        "set": "CLB",
+        "setnum": "449"
+      },
+      {
+        "quantity": 1,
+        "name": "Sleight of Hand",
+        "set": "WOE",
+        "setnum": "376"
+      },
+      {
+        "quantity": 1,
+        "name": "Smoldering Egg // Ashmouth Dragon",
+        "set": "MID",
+        "setnum": "159"
+      },
+      {
+        "quantity": 1,
+        "name": "Snap",
+        "set": "DMR",
+        "setnum": "66"
+      },
+      {
+        "quantity": 1,
+        "name": "Sol Ring",
+        "set": "CMR",
+        "setnum": "472"
+      },
+      {
+        "quantity": 1,
+        "name": "Spell Pierce",
+        "set": "XLN",
+        "setnum": "81"
+      },
+      {
+        "quantity": 1,
+        "name": "Spell Satchel",
+        "set": "STX",
+        "setnum": "258"
+      },
+      {
+        "quantity": 1,
+        "name": "Swiftfoot Boots",
+        "set": "FDN",
+        "setnum": "258"
+      },
+      {
+        "quantity": 1,
+        "name": "Swiftwater Cliffs",
+        "set": "IKO",
+        "setnum": "255"
+      },
+      {
+        "quantity": 1,
+        "name": "Temple of Epiphany",
+        "set": "PIP",
+        "setnum": "305"
+      },
+      {
+        "quantity": 1,
+        "name": "Thermo-Alchemist",
+        "set": "UMA",
+        "setnum": "151"
+      },
+      {
+        "quantity": 1,
+        "name": "Third Path Iconoclast",
+        "set": "BRO",
+        "setnum": "223"
+      },
+      {
+        "quantity": 1,
+        "name": "Thousand-Year Storm",
+        "set": "FDN",
+        "setnum": "248"
+      },
+      {
+        "quantity": 1,
+        "name": "Thrill of Possibility",
+        "set": "M21",
+        "setnum": "165"
+      },
+      {
+        "quantity": 1,
+        "name": "Volatile Fault",
+        "set": "LCI",
+        "setnum": "286"
+      },
+      {
+        "quantity": 1,
+        "name": "Whispersilk Cloak",
+        "set": "DST",
+        "setnum": "160"
+      },
+      {
+        "quantity": 1,
+        "name": "Young Pyromancer",
+        "set": "2X2",
+        "setnum": "131"
+      }
+    ],
+    "sideboard": [
+      {
+        "quantity": 1,
+        "name": "Crown of Flames",
+        "set": "TMP",
+        "setnum": "169"
+      },
+      {
+        "quantity": 1,
+        "name": "Energy Tap",
+        "set": "4ED",
+        "setnum": "69"
+      },
+      {
+        "quantity": 1,
+        "name": "Eternal Warrior",
+        "set": "4ED",
+        "setnum": "190"
+      },
+      {
+        "quantity": 1,
+        "name": "Immolation",
+        "set": "4ED",
+        "setnum": "204"
+      },
+      {
+        "quantity": 1,
+        "name": "Mark of Fury",
+        "set": "UDS",
+        "setnum": "93"
+      },
+      {
+        "quantity": 1,
+        "name": "Shimmering Wings",
+        "set": "TMP",
+        "setnum": "87"
+      }
+    ]
+  },
+  "flavorText": "Blitze zucken, Zauberketten flackern – Kraum entfesselt ein Spektakel aus Feuer und Geist, das Gegner hinwegfegt wie ein magischer Sturm.",
+  "strategy": "<strong>Deckstrategie:</strong><br>Dieses Izzet-Commander-Deck rund um <em>Kraum, Violent Cacophony</em> ist ein klassisches Storm-Combo-Deck mit Tempo-Einschlag. Ziel ist es, viele günstige Zauber schnell hintereinander zu wirken und damit Karten wie <em>Grapeshot</em>, <em>Empty the Warrens</em> oder <em>Thousand-Year Storm</em> zu maximieren.<br><br><strong>Synergien:</strong><br>Karten wie <em>Goblin Electromancer</em>, <em>Baral</em> oder <em>Jace’s Sanctum</em> reduzieren Manakosten. <em>Frantic Search</em> und <em>Opt</em> erlauben Kartenzieh-Ketten. Tokens durch <em>Young Pyromancer</em> und <em>Third Path Iconoclast</em> erzeugen Boardpräsenz.<br><br><strong>Schlüsselelemente:</strong><br><em>High Tide</em> mit <em>Frantic Search</em> und <em>Snap</em> für unendliches Mana, <em>Dualcaster Mage</em> + <em>Twinflame</em> oder ähnliche für Combos, unterstützt durch starke Utility wie <em>Sol Ring</em>, <em>Arcane Signet</em> und <em>Commander's Sphere</em>.",
+  "gameplan": {
+    "early": "Nutze Ramp-Karten wie <em>Arcane Signet</em>, <em>Fire Diamond</em> und <em>Sol Ring</em>, um Kraum frühzeitig ins Spiel zu bringen. Sichere das Feld mit Removal wie <em>Abrade</em> oder <em>Electrify</em>.",
+    "mid": "Baue Storm-Count mit günstigen Spells wie <em>Opt</em>, <em>Artful Dodge</em> und <em>Thrill of Possibility</em>. Spiele <em>Young Pyromancer</em> oder <em>Guttersnipe</em> für Value.",
+    "late": "Zünde den Sturm mit <em>Thousand-Year Storm</em> oder <em>Grapeshot</em>. Alternativ: <em>Empty the Warrens</em> oder <em>Rise from the Tides</em> für eine Token-Flut. <em>Kraum</em> liefert mit seinem Draw-Trigger konstanten Kartennachschub."
+  },
+  "mulligan": {
+    "keep": [
+      "Sol Ring, Island, Mountain, Arcane Signet, Opt, Lightning Bolt, Firebrand Archer",
+      "Island, Swiftwater Cliffs, Fire Diamond, Young Pyromancer, Opt, Sleight of Hand, Grapeshot"
+    ],
+    "mull": [
+      "5 Länder, keine Spells",
+      "Nur teure Spells wie Thousand-Year Storm ohne Ramp oder Carddraw"
+    ]
+  },
+  "combos": [
+    {
+      "cards": [
+        "High Tide",
+        "Frantic Search",
+        "Snap"
+      ],
+      "effect": "Unendlich Mana in Verbindung mit vielen Inseln, durch Mana-Rückerstattung und Enttappen – Grundlage für Storm-Ketten."
+    },
+    {
+      "cards": [
+        "Dualcaster Mage",
+        "Increasing Vengeance"
+      ],
+      "effect": "Erzeugt unendliche Kopien bei richtiger Stack-Nutzung – finale Storm-Finisher wie Grapeshot profitiern massiv."
+    }
+  ],
+  "optimization": {
+    "cards": [
+      {
+        "add": "Jeska's Will",
+        "addBudget": "Pirate's Pillage",
+        "remove": "Exquisite Firecraft",
+        "reason": "Jeska's Will erzeugt Mana und Karten – perfekt für Storm. Budgetoption hat ähnlichen Ramp-Effekt."
+      },
+      {
+        "add": "Mana Geyser",
+        "addBudget": "Seething Song",
+        "remove": "Electrify",
+        "reason": "Direkter Ramp mit hohem Output; Electrify ist zu ineffizient im Commander-Format."
+      }
+    ]
+  }
+}

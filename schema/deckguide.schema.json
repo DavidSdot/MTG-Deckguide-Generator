@@ -127,10 +127,91 @@
       }
     },
     "decklist": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "string"
+      "type": "object",
+      "properties": {
+        "mainboard": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "quantity": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              },
+              "set": {
+                "type": "string"
+              },
+              "setnum": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "quantity",
+              "name"
+            ]
+          }
+        },
+        "sideboard": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "quantity": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              },
+              "set": {
+                "type": "string"
+              },
+              "setnum": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "quantity",
+              "name"
+            ]
+          }
+        }
+      },
+      "required": [
+        "mainboard",
+        "sideboard"
+      ]
+    },
+    "optimization": {
+      "type": "object",
+      "properties": {
+        "cards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "add": {
+                "type": "string"
+              },
+              "addBudget": {
+                "type": "string"
+              },
+              "remove": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "add",
+              "addBudget",
+              "remove",
+              "reason"
+            ]
+          }
+        }
       }
     }
   }

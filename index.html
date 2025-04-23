@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="modules/decklist.css" />
-  <link rel="stylesheet" href="modules/mana-analysis.css" /> 
-  <link rel="stylesheet" href="modules/hoverPreview.css" />
+  <link rel="stylesheet" href="modules/mana-analysis.css" />
+  <link rel="stylesheet" href="modules/components/components.css" />
 </head>
 
 <body>
@@ -16,10 +16,16 @@
 
   <div id="inputSection" class="noprint">
     <h1>🧠 MTG Deckguide Generator</h1>
-    <p>Deckliste mit Mit <a target="_blank" href="https://chatgpt.com/g/g-67fc3b2493248191a1b1b86613cbb6a9-mtg-deck-guide-json-creator">ChatGPT</a> erstellen. JSON einfügen oder Datei importieren:</p>
+    <p>Deckliste mit Mit <a target="_blank"
+        href="https://chatgpt.com/g/g-67fc3b2493248191a1b1b86613cbb6a9-mtg-deck-guide-json-creator">ChatGPT</a>
+      erstellen. JSON einfügen oder Datei importieren:</p>
 
-    <p>Beispiele: <a href="https://raw.githubusercontent.com/DavidSdot/MTG-Deckguide-Generator/refs/heads/main/example-obuun.json" target="_blank">Obuun</a>, <a href="https://raw.githubusercontent.com/DavidSdot/MTG-Deckguide-Generator/refs/heads/main/example-kraum.json" target="_blank">Kraum</a></p>
-    
+    <p>Beispiele: <a
+        href="https://raw.githubusercontent.com/DavidSdot/MTG-Deckguide-Generator/refs/heads/main/example-obuun.json"
+        target="_blank">Obuun</a>, <a
+        href="https://raw.githubusercontent.com/DavidSdot/MTG-Deckguide-Generator/refs/heads/main/example-kraum.json"
+        target="_blank">Kraum</a></p>
+
     <textarea id="jsonInput"></textarea>
 
     <input type="file" id="jsonFile" />
@@ -48,15 +54,15 @@
     <h3>🧠 Strategie</h3>
     <p id="strategyText"></p>
   </div>
- 
+
   <div class="page-block section">
     <h3>🔁 Synergien & Kombos</h3>
     <div id="comboListContainer" class="combo-list-container"></div>
   </div>
 
-  <div class="page-block section" id="gameplan">
+  <div class="page-block section">
     <h3>🧠 Spielplan</h3>
-    <div class="gameplan-block">
+    <div class="gameplan-block" id="gameplan">
       <div class="gameplan-phase">
         <div class="phase-label">🔹 Turn 1–2</div>
         <div class="phase-text" id="earlyGame"></div>
@@ -71,11 +77,11 @@
       </div>
     </div>
   </div>
-  
 
-  <div class="page-block section" id="mulligan">
+
+  <div class="page-block section">
     <h3>🔍 Mulligan Guide</h3>
-    <div class="mulligan-wrapper">
+    <div class="mulligan-wrapper" id="mulligan">
       <div class="mull-box keep">
         <h4>✅ Behalten</h4>
         <ul id="mulliganKeep"></ul>
@@ -86,10 +92,18 @@
       </div>
     </div>
   </div>
-  
+
+  <div class="page-block section">
+    <h3>📈 Optimierungen</h3>
+    <p id="optimizationContainer"></p>
+  </div>
 
   <div class="page-block section">
     <h3>📋 Deckliste</h3>
+    <div class="deck-controls noprint">
+      <label for="deckSearch">🔍</label>
+      <input id="deckSearch" placeholder="Filter..." />
+    </div>
     <div id="deckTableContainer"></div>
   </div>
 
@@ -101,8 +115,8 @@
     </div>
   </div>
 
-  <script src="js/libs/chart.js"></script>
-  <script type="module" src="./js/app.js"></script>
+  <script src="./libs/chart.js"></script>
+  <script type="module" src="./main.js"></script>
 
 </body>
 

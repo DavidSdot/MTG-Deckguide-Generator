@@ -1,0 +1,68 @@
+About
+Name Kraum, Violent Cacophony
+
+Commander
+1 Kraum, Violent Cacophony
+
+Deck
+1 Abrade
+1 Arcane Signet
+1 By Force
+1 Command Tower
+1 Double Vision
+1 Dualcaster Mage
+1 Electrify
+1 Essence Scatter
+1 Expedite
+1 Exquisite Firecraft
+1 Finale of Promise
+1 Firebrand Archer
+1 Fists of Flame
+1 Frostboil Snarl
+1 Galvanic Iteration
+1 Galvanize
+1 Goblin Electromancer
+1 Grapeshot
+1 Guttersnipe
+1 Impact Tremors
+1 Increasing Vengeance
+1 Invade the City
+11 Island
+1 Izzet Charm
+1 Izzet Locket
+1 Lightning Bolt
+1 Magmaquake
+1 Mizzium Mortars
+12 Mountain
+1 Mystic Retrieval
+1 Opt
+1 Ornithopter
+1 Reckless Fireweaver
+1 Rescue
+1 Retraction Helix
+1 Rise from the Tides
+1 Rodeo Pyromancers
+1 Saheeli, Sublime Artificer
+1 Seize the Secrets
+1 Skewer the Critics
+1 Sleight of Hand
+1 Smoldering Egg
+1 Spell Pierce
+1 Spell Satchel
+1 Swiftfoot Boots
+1 Swiftwater Cliffs
+1 Temple of Epiphany
+1 Thermo-Alchemist
+1 Third Path Iconoclast
+1 Thousand-Year Storm
+1 Thrill of Possibility
+1 Volatile Fault
+1 Young Pyromancer
+
+Sideboard
+1 Crown of Flames
+1 Energy Tap
+1 Eternal Warrior
+1 Immolation
+1 Mark of Fury
+1 Shimmering Wings

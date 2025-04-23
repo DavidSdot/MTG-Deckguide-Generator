@@ -1,0 +1,552 @@
+{
+  "deckName": "Kraums Pyromantisches Spektakel",
+  "language": "de",
+  "colors": [
+    "U",
+    "R"
+  ],
+  "format": {
+    "name": "Commander",
+    "specialCards": [
+      {
+        "name": "Commander",
+        "cardName": "Kraum, Violent Cacophony"
+      }
+    ]
+  },
+  "decklist": {
+    "mainboard": [
+      {
+        "quantity": 1,
+        "name": "Kraum, Violent Cacophony",
+        "set": "OTJ",
+        "setnum": "214"
+      },
+      {
+        "quantity": 1,
+        "name": "Abrade",
+        "set": "FDN",
+        "setnum": "188"
+      },
+      {
+        "quantity": 1,
+        "name": "Arcane Denial",
+        "set": "CMR",
+        "setnum": "393"
+      },
+      {
+        "quantity": 1,
+        "name": "Arcane Signet",
+        "set": "DMC",
+        "setnum": "177"
+      },
+      {
+        "quantity": 1,
+        "name": "Banishing Knack",
+        "set": "EVE",
+        "setnum": "17"
+      },
+      {
+        "quantity": 1,
+        "name": "Battle Hymn",
+        "set": "AVR",
+        "setnum": "128"
+      },
+      {
+        "quantity": 1,
+        "name": "Cathartic Reunion",
+        "set": "IKO",
+        "setnum": "110"
+      },
+      {
+        "quantity": 1,
+        "name": "Command Tower",
+        "set": "SCD",
+        "setnum": "297"
+      },
+      {
+        "quantity": 1,
+        "name": "Commander's Sphere",
+        "set": "C21",
+        "setnum": "239"
+      },
+      {
+        "quantity": 1,
+        "name": "Consider",
+        "set": "MID",
+        "setnum": "44"
+      },
+      {
+        "quantity": 1,
+        "name": "Crown of Flames",
+        "set": "INV",
+        "setnum": "142"
+      },
+      {
+        "quantity": 1,
+        "name": "Desolate Lighthouse",
+        "set": "LCC",
+        "setnum": "327"
+      },
+      {
+        "quantity": 1,
+        "name": "Dual Casting",
+        "set": "AVR",
+        "setnum": "133"
+      },
+      {
+        "quantity": 1,
+        "name": "Dualcaster Mage",
+        "set": "C20",
+        "setnum": "150"
+      },
+      {
+        "quantity": 1,
+        "name": "Empty the Warrens",
+        "set": "TSR",
+        "setnum": "162"
+      },
+      {
+        "quantity": 1,
+        "name": "Essence Scatter",
+        "set": "PLST",
+        "setnum": "M19-54"
+      },
+      {
+        "quantity": 1,
+        "name": "Expedite",
+        "set": "BBD",
+        "setnum": "177"
+      },
+      {
+        "quantity": 1,
+        "name": "Faithless Looting",
+        "set": "CMM",
+        "setnum": "220"
+      },
+      {
+        "quantity": 1,
+        "name": "Ferrous Lake",
+        "set": "BLC",
+        "setnum": "303"
+      },
+      {
+        "quantity": 1,
+        "name": "Finale of Promise",
+        "set": "OTC",
+        "setnum": "166"
+      },
+      {
+        "quantity": 1,
+        "name": "Fire Diamond",
+        "set": "CMR",
+        "setnum": "309"
+      },
+      {
+        "quantity": 1,
+        "name": "Firebolt",
+        "set": "PLST",
+        "setnum": "DDS-37"
+      },
+      {
+        "quantity": 1,
+        "name": "Firebrand Archer",
+        "set": "FDN",
+        "setnum": "196"
+      },
+      {
+        "quantity": 1,
+        "name": "Firemind's Research",
+        "set": "GRN",
+        "setnum": "171"
+      },
+      {
+        "quantity": 1,
+        "name": "Flame Slash",
+        "set": "DDK",
+        "setnum": "60"
+      },
+      {
+        "quantity": 1,
+        "name": "Frantic Search",
+        "set": "UMA",
+        "setnum": "57"
+      },
+      {
+        "quantity": 1,
+        "name": "Frostboil Snarl",
+        "set": "WHO",
+        "setnum": "282"
+      },
+      {
+        "quantity": 1,
+        "name": "Galvanic Iteration",
+        "set": "OTC",
+        "setnum": "227"
+      },
+      {
+        "quantity": 1,
+        "name": "Goblin Electromancer",
+        "set": "GRN",
+        "setnum": "174"
+      },
+      {
+        "quantity": 1,
+        "name": "Grapeshot",
+        "set": "TSP",
+        "setnum": "160"
+      },
+      {
+        "quantity": 1,
+        "name": "Guttersnipe",
+        "set": "RTR",
+        "setnum": "98"
+      },
+      {
+        "quantity": 1,
+        "name": "Harmonic Prodigy",
+        "set": "MH2",
+        "setnum": "132"
+      },
+      {
+        "quantity": 1,
+        "name": "High Tide",
+        "set": "FEM",
+        "setnum": "18"
+      },
+      {
+        "quantity": 1,
+        "name": "Ignite the Future",
+        "set": "C19",
+        "setnum": "27"
+      },
+      {
+        "quantity": 1,
+        "name": "Impact Tremors",
+        "set": "WOT",
+        "setnum": "44"
+      },
+      {
+        "quantity": 1,
+        "name": "Increasing Vengeance",
+        "set": "C19",
+        "setnum": "147"
+      },
+      {
+        "quantity": 1,
+        "name": "Into the Roil",
+        "set": "ZNR",
+        "setnum": "62"
+      },
+      {
+        "quantity": 11,
+        "name": "Island",
+        "set": "MOM",
+        "setnum": "278"
+      },
+      {
+        "quantity": 1,
+        "name": "Izzet Boilerworks",
+        "set": "MM2",
+        "setnum": "245"
+      },
+      {
+        "quantity": 1,
+        "name": "Izzet Charm",
+        "set": "2X2",
+        "setnum": "230"
+      },
+      {
+        "quantity": 1,
+        "name": "Izzet Signet",
+        "set": "BLC",
+        "setnum": "278"
+      },
+      {
+        "quantity": 1,
+        "name": "Lightning Bolt",
+        "set": "M10",
+        "setnum": "146"
+      },
+      {
+        "quantity": 1,
+        "name": "Mission Briefing",
+        "set": "MKC",
+        "setnum": "110"
+      },
+      {
+        "quantity": 12,
+        "name": "Mountain",
+        "set": "JMP",
+        "setnum": "64"
+      },
+      {
+        "quantity": 1,
+        "name": "Mystic Retrieval",
+        "set": "DKA",
+        "setnum": "42"
+      },
+      {
+        "quantity": 1,
+        "name": "Nettle Drone",
+        "set": "BFZ",
+        "setnum": "131"
+      },
+      {
+        "quantity": 1,
+        "name": "Octavia, Living Thesis",
+        "set": "OTC",
+        "setnum": "103"
+      },
+      {
+        "quantity": 1,
+        "name": "Ornithopter",
+        "set": "M15",
+        "setnum": "223"
+      },
+      {
+        "quantity": 1,
+        "name": "Past in Flames",
+        "set": "SS3",
+        "setnum": "4"
+      },
+      {
+        "quantity": 1,
+        "name": "Pieces of the Puzzle",
+        "set": "SOI",
+        "setnum": "78"
+      },
+      {
+        "quantity": 1,
+        "name": "Reality Shift",
+        "set": "PLST",
+        "setnum": "C19-92"
+      },
+      {
+        "quantity": 1,
+        "name": "Reckless Fireweaver",
+        "set": "KLD",
+        "setnum": "126"
+      },
+      {
+        "quantity": 1,
+        "name": "Recoup",
+        "set": "PLST",
+        "setnum": "DDK-63"
+      },
+      {
+        "quantity": 1,
+        "name": "Retraction Helix",
+        "set": "BNG",
+        "setnum": "49"
+      },
+      {
+        "quantity": 1,
+        "name": "Rise from the Tides",
+        "set": "SOI",
+        "setnum": "83"
+      },
+      {
+        "quantity": 1,
+        "name": "Rodeo Pyromancers",
+        "set": "OTJ",
+        "setnum": "143"
+      },
+      {
+        "quantity": 1,
+        "name": "Runaway Steam-Kin",
+        "set": "GRN",
+        "setnum": "115"
+      },
+      {
+        "quantity": 1,
+        "name": "Saheeli, Sublime Artificer",
+        "set": "WAR",
+        "setnum": "234"
+      },
+      {
+        "quantity": 1,
+        "name": "Seize the Secrets",
+        "set": "OTJ",
+        "setnum": "64"
+      },
+      {
+        "quantity": 1,
+        "name": "Serum Visions",
+        "set": "5DN",
+        "setnum": "36"
+      },
+      {
+        "quantity": 1,
+        "name": "Shimmering Wings",
+        "set": "10E",
+        "setnum": "107"
+      },
+      {
+        "quantity": 1,
+        "name": "Skewer the Critics",
+        "set": "RNA",
+        "setnum": "115"
+      },
+      {
+        "quantity": 1,
+        "name": "Sky Diamond",
+        "set": "CLB",
+        "setnum": "449"
+      },
+      {
+        "quantity": 1,
+        "name": "Sleight of Hand",
+        "set": "WOE",
+        "setnum": "376"
+      },
+      {
+        "quantity": 1,
+        "name": "Snap",
+        "set": "DMR",
+        "setnum": "66"
+      },
+      {
+        "quantity": 1,
+        "name": "Sol Ring",
+        "set": "CMR",
+        "setnum": "472"
+      },
+      {
+        "quantity": 1,
+        "name": "Spell Satchel",
+        "set": "STX",
+        "setnum": "258"
+      },
+      {
+        "quantity": 1,
+        "name": "Storm-Kiln Artist",
+        "set": "STX",
+        "setnum": "115"
+      },
+      {
+        "quantity": 1,
+        "name": "Swiftfoot Boots",
+        "set": "FDN",
+        "setnum": "258"
+      },
+      {
+        "quantity": 1,
+        "name": "Swiftwater Cliffs",
+        "set": "IKO",
+        "setnum": "255"
+      },
+      {
+        "quantity": 1,
+        "name": "Talisman of Creativity",
+        "set": "MH1",
+        "setnum": "231"
+      },
+      {
+        "quantity": 1,
+        "name": "Temple of Epiphany",
+        "set": "PIP",
+        "setnum": "305"
+      },
+      {
+        "quantity": 1,
+        "name": "Thermo-Alchemist",
+        "set": "UMA",
+        "setnum": "151"
+      },
+      {
+        "quantity": 1,
+        "name": "Third Path Iconoclast",
+        "set": "BRO",
+        "setnum": "223"
+      },
+      {
+        "quantity": 1,
+        "name": "Thrill of Possibility",
+        "set": "M21",
+        "setnum": "165"
+      },
+      {
+        "quantity": 1,
+        "name": "Unwind",
+        "set": "DOM",
+        "setnum": "72"
+      },
+      {
+        "quantity": 1,
+        "name": "Volatile Fault",
+        "set": "LCI",
+        "setnum": "286"
+      },
+      {
+        "quantity": 1,
+        "name": "Whispersilk Cloak",
+        "set": "DST",
+        "setnum": "160"
+      },
+      {
+        "quantity": 1,
+        "name": "Young Pyromancer",
+        "set": "2X2",
+        "setnum": "131"
+      }
+    ],
+    "sideboard": []
+  },
+  "flavorText": "Wenn Flammen und Wissen aufeinandertreffen, wird jedes Zauberduell zu einem Feuerwerk.",
+  "strategy": "<strong>Pyromantische Kontrolle mit Combo-Potenzial</strong><br>Dieses Izzet-Deck kombiniert kostengünstige Spontanzauber und Hexereien mit Kreaturen, die davon profitieren – wie <em>Guttersnipe</em>, <em>Young Pyromancer</em> und <em>Storm-Kiln Artist</em>. Mit <em>Dualcaster Mage</em> und <em>Increasing Vengeance</em> erzeugst du explosive Kopierketten. <br><br><strong>Manabeschleunigung</strong> erfolgt über Artefakte wie <em>Arcane Signet</em> und <em>Sol Ring</em>, während <em>Faithless Looting</em> und <em>Consider</em> dir helfen, durch dein Deck zu ziehen.",
+  "combos": [
+    {
+      "cards": [
+        "Dualcaster Mage",
+        "Twinflame"
+      ],
+      "effect": "Unendlich viele Kreaturen durch wiederholtes Kopieren von Dualcaster Mage mit dem eigenen ETB-Effekt."
+    },
+    {
+      "cards": [
+        "Storm-Kiln Artist",
+        "Frantic Search",
+        "Grapeshot"
+      ],
+      "effect": "Storm-Kiln Artist generiert mit jedem Zauber ein Treasure, wodurch endlos viele Zauber erzeugt und mit Grapeshot beendet werden können."
+    }
+  ],
+  "gameplan": {
+    "early": "Frühzeitig ziehst du Karten mit <em>Consider</em>, <em>Serum Visions</em> und <em>Faithless Looting</em>, und bringst Manasteine wie <em>Arcane Signet</em> ins Spiel.",
+    "mid": "Spiele Value-Kreaturen wie <em>Young Pyromancer</em>, <em>Guttersnipe</em> oder <em>Third Path Iconoclast</em>. Baue Druck auf und kontrolliere mit <em>Arcane Denial</em> und <em>Reality Shift</em>.",
+    "late": "Zünde große Zauberketten mit <em>Past in Flames</em> und nutze dein Mana effizient. Finish durch <em>Grapeshot</em> oder Overrun-Style via <em>Rise from the Tides</em>."
+  },
+  "mulligan": {
+    "keep": [
+      "Arcane Signet, Island, Mountain, Faithless Looting, Lightning Bolt, Dualcaster Mage, Frantic Search",
+      "Command Tower, Sol Ring, Young Pyromancer, Serum Visions, Flame Slash, Island, Mountain"
+    ],
+    "mull": [
+      "7 Länder ohne Spells",
+      "Nur teure Spells wie Ignite the Future und keine Ramp"
+    ]
+  },
+  "optimization": {
+    "cards": [
+      {
+        "add": "Twinflame",
+        "addBudget": "Heat Shimmer",
+        "remove": "Seize the Secrets",
+        "reason": "Besseres Potenzial für Kopier-Kombos mit Dualcaster Mage."
+      },
+      {
+        "add": "Underworld Breach",
+        "addBudget": "Secrets of the Dead",
+        "remove": "Shimmering Wings",
+        "reason": "Breach öffnet Recur-Combos, die das Deck explosiver machen."
+      },
+      {
+        "add": "Berg Strider",
+        "addBudget": "Kelpie Guide",
+        "remove": "Rodeo Pyromancers",
+        "reason": "Bessere Defensive und Utility."
+      }
+    ]
+  }
+}

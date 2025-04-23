@@ -1,12 +1,18 @@
+export{
+    createManaCurveChart,
+    createManaColorChart
+}
+
+
 let ManaCurveChart;
-export function createManaCurveChart(cards, canvasId) {
+function createManaCurveChart(cards, canvasId) {
     const counts = new Array(7).fill(0); // 0–6+
 
     cards.forEach(c => {
         if (c.type_line.toLowerCase().includes("land")) {
             return;
         }
-        const cost = c.cmc ? c.cmc : parseManaValue(c.mana_cost);
+        const cost = c.cmc ? c.cmc : parseManaValue(c.manacost);
         const bucket = Math.min(cost, 6);
         counts[bucket]++;
     });
@@ -39,13 +45,14 @@ export function createManaCurveChart(cards, canvasId) {
 
     });
 }
+
 let ManaColorChart;
-export function createManaColorChart(cards, canvasId) {
+function createManaColorChart(cards, canvasId) {
     const colorMap = { W: 0, U: 0, B: 0, R: 0, G: 0, C: 0 };
 
     cards.forEach(c => {
         if (c.cmc > 0) {
-            (c.mana_cost.match(/\{([WUBRGC])\}/g) || []).forEach(m => {
+            (c.manacost.match(/\{([WUBRGC])\}/g) || []).forEach(m => {
                 const symbol = m.replace(/\{|\}/g, '');
                 if (colorMap[symbol] !== undefined) {
                     colorMap[symbol]++;

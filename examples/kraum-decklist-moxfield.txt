@@ -1,0 +1,87 @@
+1 Kraum, Violent Cacophony (OTJ) 214
+1 Abrade (FDN) 188
+1 Arcane Signet (DMC) 177
+1 Artful Dodge (DKA) 27
+1 Banishing Knack (EVE) 17
+1 Battle Hymn (AVR) 128
+1 By Force (AKH) 123
+1 Cinder Pyromancer (EVE) 50
+1 Circle of Flame (M15) 135
+1 Command Tower (SCD) 297
+1 Commander's Sphere (C21) 239
+1 Double Vision (M21) 142
+1 Dualcaster Mage (C20) 150
+1 Electrify (AKH) 129
+1 Empty the Warrens (TSR) 162
+1 Essence Scatter (PLST) M19-54
+1 Expedite (BBD) 177
+1 Exquisite Firecraft (ORI) 143
+1 Ferrous Lake (BLC) 303
+1 Finale of Promise (OTC) 166
+1 Fire Diamond (CMR) 309
+1 Firebolt (PLST) DDS-37
+1 Firebrand Archer (FDN) 196
+1 Fists of Flame (CMM) 223
+1 Flame Slash (DDK) 60
+1 Frantic Search (UMA) 57
+1 Frostboil Snarl (WHO) 282
+1 Galvanic Iteration (OTC) 227
+1 Galvanize (MKM) 128
+1 Goblin Electromancer (GRN) 174
+1 Grapeshot (TSP) 160
+1 Guttersnipe (RTR) 98
+1 High Tide (DMR) 54
+1 Impact Tremors (WOT) 44
+1 Increasing Vengeance (C19) 147
+1 Invade the City (PLST) WAR-201
+11 Island (MOM) 278
+1 Izzet Boilerworks (MM2) 245
+1 Izzet Charm (2X2) 230
+1 Izzet Locket (GRN) 238
+1 Izzet Signet (BLC) 278
+1 Izzet Staticaster (RTR) 173
+1 Lava Dart (MH1) 134
+1 Levitation (M12) 61
+1 Lightning Bolt (M10) 146
+1 Magmaquake (C18) 125
+1 Mizzium Mortars (CLB) 803
+12 Mountain (JMP) 64
+1 Mystic Retrieval (DKA) 42
+1 Nettle Drone (BFZ) 131
+1 Octavia, Living Thesis (OTC) 103
+1 Opt (M21) 59
+1 Ornithopter (M15) 223
+1 Overmaster (DMR) 132
+1 Reckless Fireweaver (KLD) 126
+1 Rescue (DOM) 63
+1 Retraction Helix (BNG) 49
+1 Rise from the Tides (SOI) 83
+1 Rodeo Pyromancers (OTJ) 143
+1 Saheeli, Sublime Artificer (WAR) 234
+1 Seize the Secrets (OTJ) 64
+1 Skewer the Critics (RNA) 115
+1 Sky Diamond (CLB) 449
+1 Sleight of Hand (WOE) 376
+1 Smoldering Egg // Ashmouth Dragon (MID) 159
+1 Snap (DMR) 66
+1 Sol Ring (CMR) 472
+1 Spell Pierce (XLN) 81
+1 Spell Satchel (STX) 258
+1 Swiftfoot Boots (FDN) 258
+1 Swiftwater Cliffs (IKO) 255
+1 Temple of Epiphany (PIP) 305
+1 Thermo-Alchemist (UMA) 151
+1 Third Path Iconoclast (BRO) 223
+1 Thousand-Year Storm (FDN) 248
+1 Thrill of Possibility (M21) 165
+1 Volatile Fault (LCI) 286
+1 Whispersilk Cloak (DST) 160
+1 Young Pyromancer (2X2) 131
+
+SIDEBOARD:
+1 Crown of Flames (TMP) 169
+1 Energy Tap (4ED) 69
+1 Eternal Warrior (4ED) 190
+1 Immolation (4ED) 204
+1 Mark of Fury (UDS) 93
+1 Shimmering Wings (TMP) 87
